@@ -6,9 +6,7 @@
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="Azure.Storage.Blobs" Version="12.17.0" />
+		<PackageReference Include="Berger.Extensions.Configuration" Version="1.0.0.6" />
 		<PackageReference Include="Berger.Extensions.Tenants" Version="1.0.0.2" />
-	</ItemGroup>
-	<ItemGroup>
-		<ProjectReference Include="..\..\..\Berger.Extensions.Configuration\src\Berger.Extensions.Configuration\Berger.Extensions.Configuration.csproj" />
 	</ItemGroup>
 </Project>
