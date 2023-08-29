@@ -1,18 +1,12 @@
 ﻿using Azure;
 using Azure.Storage.Blobs;
-using Berger.Extensions.Tenants;
 using Azure.Storage.Blobs.Models;
 using System.Text.RegularExpressions;
-using Berger.Extensions.Configuration;
 
 namespace Berger.Extensions.Blob
 {
-    public class BlobService : BaseConfiguration
+    public class BlobService
     {
-        #region Properties
-        public Tenant Tenant { get; }
-        #endregion
-
         #region Constructors
         public BlobService()
         {
