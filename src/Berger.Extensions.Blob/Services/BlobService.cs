@@ -3,7 +3,7 @@ using Azure.Storage.Blobs;
 using Azure.Storage.Blobs.Models;
 using System.Text.RegularExpressions;
 
-namespace Berger.Extensions.Blob
+namespace Berger.Extensions.Storage
 {
     public class BlobService
     {
