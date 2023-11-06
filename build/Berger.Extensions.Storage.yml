@@ -15,7 +15,7 @@ resources:
 
 jobs:
 - job: 'nuget'
-  displayName: Berger.Extensions.Blob-Agent
+  displayName: Berger.Extensions.Storage-Agent
   pool:
     vmImage: windows-latest
   steps:

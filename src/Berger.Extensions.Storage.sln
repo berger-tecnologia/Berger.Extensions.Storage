@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{D61B0D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{D02D24C5-ABC8-49DC-8AAB-559FE21C4557}"
 	ProjectSection(SolutionItems) = preProject
-		..\build\Berger.Extensions.Blob.yml = ..\build\Berger.Extensions.Blob.yml
+		..\build\Berger.Extensions.Storage.yml = ..\build\Berger.Extensions.Storage.yml
 	EndProjectSection
 EndProject
 Global
