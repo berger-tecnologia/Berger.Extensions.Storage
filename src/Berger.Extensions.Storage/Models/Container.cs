@@ -2,7 +2,7 @@
 
 namespace Berger.Extensions.Storage
 {
-    public class Container : BaseEntityWrapper, IContainer
+    public class Container : BaseEntity, IContainer
     {
         public string Url { get; set; } = string.Empty;
         public string Name { get; set; } = string.Empty;
