@@ -2,7 +2,7 @@
 
 namespace Berger.Extensions.Storage
 {
-    public class Asset : BaseEntity
+    public class Asset : BaseEntity, IAsset<FileExtension>
     {
         #region Properties
         public Guid ContainerID { get; set; }
