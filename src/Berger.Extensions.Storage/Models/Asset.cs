@@ -8,7 +8,7 @@ namespace Berger.Extensions.Storage
         public Guid ContainerID { get; set; }
         public IModule Module { get; set; }
         public IContainer Container { get; set; }
-        public string AttributeID { get; set; } = string.Empty;
+        public string AttributeId { get; set; } = string.Empty;
         public FileExtension FileExtension { get; set; }
         public string Name { get; set; } = string.Empty;
         public string Path { get; set; } = string.Empty;
