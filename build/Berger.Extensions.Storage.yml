@@ -15,7 +15,7 @@ resources:
 
 jobs:
 - job: 'nuget'
-  displayName: Berger.Extensions.Blob-Agent
+  displayName: Berger.Extensions.Storage-Agent
   pool:
     vmImage: windows-latest
   steps:
@@ -38,7 +38,7 @@ jobs:
     displayName: 'dotnet build'
     inputs:
       projects: '**/*.csproj'
-      arguments: '--configuration $(buildConfiguration)'
+      arguments: '--configuration Release'
 
   - task: DotNetCoreCLI@2
     displayName: dotnet pack
