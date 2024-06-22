@@ -14,8 +14,6 @@ namespace Berger.Extensions.Storage
         #region Constructors
         public BlobService()
         {
-            //Configuration.ConfigureBuilder();
-            //Tenant = Configuration.Get<Tenant>("Tenant");
         }
         #endregion
 
